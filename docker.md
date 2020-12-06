@@ -142,6 +142,78 @@ docker run --entrypoint <command_name> <name of the container> <command_param_va
 ```
 If so then value of the `--entrypoint` will be replaced by default `ENTRYPOINT` command in `Dockerfile`
 
+##### Default networks
+
+1. Bridge - default network provided to all the containers inside docker host from series `172.17.x.X`
+2. None - Container without any network
+3. Host - If we want to access any container from outside the docker host and can't create multiple container with same port number as it hold back both internal and external port.
+
+```
+docker run <name of the container> --network=<network_name>
+```
+User defined network
+```
+docker network create --driver bridge --subnet 182.18.0.0/16 <custom-isolated_network_name>
+```
+```
+docker network ls 
+```
+##### Embedded DNS
+DNS server address `127.0.0.11`
+
+##### File System
+
+- /var/lib/docker
+  - aufs
+  - containers
+  - image
+  - volumes
+  
+##### Layered architecture
+```
+Image layer (read-only) -> Container layer (read-write)
+```
+##### Volumes
+
+Volume mounting:
+```
+docker volume create <volume_name>
+```
+- /var/lib/docker
+  - aufs
+  - containers
+  - image
+  - volumes
+    - <volume_name>
+```
+docker run -v <volume_name>:/var/lib/mysql mysql
+```
+Bind mounting:
+```
+docker run -v <any_directory_inside_docker_host>:/var/lib/mysql mysql
+```
+or 
+```
+docker run --mount type=bind,source=<any_directory_inside_docker_host>,target=/var/lib/mysql mysql
+```
+Here source - location on docker host, targer - location on container
+
+##### Storage drivers
+
+- AUFS
+- ZFS
+- BTRFS
+- Device mapper
+- Overlay
+- Overlay2
+
+##### Docker compose
+```
+docker run -d --name=redis redis
+```
+```
+docker-compose up
+```
 
 
 #### References
