@@ -214,9 +214,32 @@ docker run -d --name=redis redis
 ```
 docker-compose up
 ```
+##### Deploy private registry
+```
+docker run -d -p 5000:5000 --name registry registry:2
+docker image tag my-image localhost:5000/my-image
+docker push localhost:5000/my-image
+docker pull localhost:5000/my-image
+docker pull 192.168.56.100:5000/my-image
+```
+##### Docker engine
 
+Docker deamon -> REST API -> Docker CLI
+```
+docker -H=<remote-docker_engine>:<port_number> <other usual commands>
+```
+###### Cgroups
+```
+docker run --cpu=.5 ubuntu
+docker run --memory=100m ubuntu
+```
+##### Container Orchestration
+```
+docker service create --replicas=100 nodejs
+```
 
 #### References
 1. [Quickstart: Compose and Django](https://docs.docker.com/compose/django/)
 2. [Django Development with Docker Compose and Machine](https://realpython.com/django-development-with-docker-compose-and-machine/)
 3. [Welcome to Cookiecutter Django’s documentation!](https://cookiecutter-django.readthedocs.io/en/latest/index.html)
+4. [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo&t=1262s)
