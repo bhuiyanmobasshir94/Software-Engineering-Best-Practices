@@ -72,7 +72,60 @@ docker logs <name or id of the container>
 ```
 ##### Environment variables
 ```
+docker run -e <set_environment_variables> <name of the container>
 ```
+##### How to create my own image?
+1. OS - Ubuntu
+2. Update apt repo
+3. Install dependencies using apt
+4. Install python dependencies using pip 
+5. Copy source code to `/opt` folder
+6. Run the web server using `flask` command
+
+```
+FROM Ubuntu
+RUN apt-get update
+RUN apt-get install python
+
+RUN pip install flask
+RUN pip install flask-mysql
+
+COPY . /opt/src
+
+ENTRYPOINT FLASK_APP=/opt/src/app.py flask run 
+```
+```
+docker build Dockerfile -t <name of the container>
+docker push <name of the container>
+```
+```
+docker history <name of the container>
+```
+```
+docker build .
+```
+##### CMD vs ENTRYPOINT
+```
+CMD command param1
+CMD ["command", "param1"]
+```
+```
+FROM Ubuntu
+CMD sleep 5
+```
+```
+docker build -t ubuntu-sleeper .
+docker run ubuntu-sleeper
+```
+```
+FROM Ubuntu
+ENTRYPOINT ["sleep"]
+```
+```
+docker build -t ubuntu-sleeper .
+docker run ubuntu-sleeper 10
+```
+`CMD` executes the whole command but `ENTRYPOINT` gives an initializer for the command
 
 #### References
 1. [Quickstart: Compose and Django](https://docs.docker.com/compose/django/)
