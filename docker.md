@@ -126,6 +126,23 @@ docker build -t ubuntu-sleeper .
 docker run ubuntu-sleeper 10
 ```
 `CMD` executes the whole command but `ENTRYPOINT` gives an initializer for the command
+```
+FROM Ubuntu
+ENTRYPOINT ["sleep"]
+CMD ["5"]
+```
+```
+docker build -t ubuntu-sleeper .
+docker run ubuntu-sleeper
+```
+It will take the command from `ENTRYPOINT` and parameter value from `CMD` unless nothing provided in `docker run`.
+
+```
+docker run --entrypoint <command_name> <name of the container> <command_param_value>
+```
+If so then value of the `--entrypoint` will be replaced by default `ENTRYPOINT` command in `Dockerfile`
+
+
 
 #### References
 1. [Quickstart: Compose and Django](https://docs.docker.com/compose/django/)
