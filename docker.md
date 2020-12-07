@@ -243,3 +243,4 @@ docker service create --replicas=100 nodejs
 2. [Django Development with Docker Compose and Machine](https://realpython.com/django-development-with-docker-compose-and-machine/)
 3. [Welcome to Cookiecutter Django’s documentation!](https://cookiecutter-django.readthedocs.io/en/latest/index.html)
 4. [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo&t=1262s)
+5. [Docker 101 Tutorial](https://www.docker.com/101-tutorial)
