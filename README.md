@@ -8,3 +8,6 @@
 
 ### **MIT**
 - [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf?fbclid=IwAR0sd6vlFe3qP1aS2PdtT16bsS06OzdugnPSsfFCXdRx0pda1idZZKGoOSI)
+
+### Books 
+- [Software Mistakes and Tradeoffs](https://livebook.manning.com/book/software-mistakes-and-tradeoffs/chapter-1/v-2/)
