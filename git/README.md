@@ -9,3 +9,9 @@ git add .
 
 This removes all files from the repository and adds them back (this time respecting the rules in your .gitignore).
 ```
+
+```
+git fetch --all
+git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+git pull --all
+```
