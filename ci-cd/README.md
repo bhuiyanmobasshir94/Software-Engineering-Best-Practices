@@ -1,0 +1,5 @@
+1. [How to Get Continuous Integration Right](https://medium.com/@nicolopigna/how-to-get-continuous-integration-right-77bda4bc0d1f)
+2. [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
+3. [Continuous Delivery](https://martinfowler.com/books/continuousDelivery.html)
+4. [Straight to Prod](https://betterprogramming.pub/straight-to-prod-ca12205841fc)
+5. [BlueGreenDeployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
