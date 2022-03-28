@@ -9,3 +9,4 @@
 # Resource
 1. [Youtube channel by Corey](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g)
 2. [Python tutorials by geek for geeks](https://www.geeksforgeeks.org/python-programming-language/)
+3. [Python 3 Module of the Week](https://pymotw.com/3/)
