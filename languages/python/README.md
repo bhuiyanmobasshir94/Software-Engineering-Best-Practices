@@ -11,3 +11,6 @@
 2. [Python tutorials by geek for geeks](https://www.geeksforgeeks.org/python-programming-language/)
 3. [Python 3 Module of the Week](https://pymotw.com/3/)
 4. [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns)
+
+## Important
+1. [The Complete Python Development Guide](https://testdriven.io/guides/complete-python/)
