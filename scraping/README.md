@@ -2,3 +2,4 @@
 2. [Scrapyd-Django-Template](https://github.com/adriancast/Scrapyd-Django-Template)
 3. [Gerapy](https://github.com/Gerapy/Gerapy)
 4. [Scrapy](https://scrapy.org/)
+5. [Concurrent Web Scraping with Selenium Grid and Docker Swarm](https://testdriven.io/blog/concurrent-web-scraping-with-selenium-grid-and-docker-swarm/)
