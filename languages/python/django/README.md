@@ -6,3 +6,6 @@
 
 ## Django + Docker 
 1. [Dockerizing Django with Postgres, Gunicorn, and Nginx](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
+
+## Django 
+1. [Async Views in Django](https://testdriven.io/blog/django-async-views/)
