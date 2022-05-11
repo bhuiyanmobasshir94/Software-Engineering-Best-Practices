@@ -10,3 +10,4 @@
 
 ## Django 
 1. [Async Views in Django](https://testdriven.io/blog/django-async-views/)
+2. [How to Develop APIs with Django REST Framework](https://djangostars.com/blog/rest-apis-django-development/)
