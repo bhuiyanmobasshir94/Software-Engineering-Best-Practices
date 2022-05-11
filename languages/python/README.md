@@ -1,3 +1,10 @@
+## Learning
+1. [Learn Python 3 The Hard Way](https://learnpythonthehardway.org/python3/)
+2. [How To Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/)
+3. [Automate the Boring Stuff With Python](Automate the Boring Stuff With Python)
+
+
+
 1. [How to Stand Out in a Python Coding Interview](https://realpython.com/python-coding-interview-tips/)
 2. [Coding snippets by Corey](https://github.com/CoreyMSchafer/code_snippets)
 
