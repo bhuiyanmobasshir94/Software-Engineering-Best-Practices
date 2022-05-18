@@ -11,6 +11,7 @@
 ## Django 
 1. [Async Views in Django](https://testdriven.io/blog/django-async-views/)
 2. [How to Develop APIs with Django REST Framework](https://djangostars.com/blog/rest-apis-django-development/)
+3. [Storing Django Static and Media Files on Amazon S3](https://testdriven.io/blog/storing-django-static-and-media-files-on-amazon-s3/)
 
 ## Django + Airflow
 1. [Django management from Airflow](https://stackoverflow.com/questions/47470245/django-orm-in-airflow-is-it-possible)
