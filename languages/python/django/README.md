@@ -16,3 +16,6 @@
 
 ## Django + Airflow
 1. [Django management from Airflow](https://stackoverflow.com/questions/47470245/django-orm-in-airflow-is-it-possible)
+
+## DRF
+1. [DRF guide](https://www.cdrf.co/3.4/rest_framework.generics/RetrieveAPIView.html)
