@@ -13,6 +13,7 @@
 2. [How to Develop APIs with Django REST Framework](https://djangostars.com/blog/rest-apis-django-development/)
 3. [Storing Django Static and Media Files on Amazon S3](https://testdriven.io/blog/storing-django-static-and-media-files-on-amazon-s3/)
 4. [Django dumpdata and loaddata](https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata)
+5. [Deploying Django to AWS ECS with Terraform](https://testdriven.io/blog/deploying-django-to-ecs-with-terraform/)
 
 ## Django + Airflow
 1. [Django management from Airflow](https://stackoverflow.com/questions/47470245/django-orm-in-airflow-is-it-possible)
