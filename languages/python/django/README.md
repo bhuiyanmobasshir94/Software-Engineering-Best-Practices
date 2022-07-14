@@ -21,6 +21,7 @@
 ## DRF
 1. [DRF guide](https://www.cdrf.co/3.4/rest_framework.generics/RetrieveAPIView.html)
 2. [DRF filtering](http://www.tomchristie.com/rest-framework-2-docs/api-guide/filtering)
+3. [How to Develop APIs with Django REST Framework](https://djangostars.com/blog/rest-apis-django-development/)
 
 ## Web Framework
 1. [Building Your Own Python Web Framework](https://testdriven.io/courses/python-web-framework/)
