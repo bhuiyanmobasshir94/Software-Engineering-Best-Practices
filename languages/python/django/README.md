@@ -17,6 +17,7 @@
 6. [How to use Django Rest Framework APIView to create a Django API – Part 1](https://andela.com/insights/how-to-use-django-rest-framework-apiview-to-create-a-django-api-part-1/)
 7. [Python & Async Simplified](https://www.aeracode.org/2018/02/19/python-async-simplified/#:~:text=When%20you%20have%20an%20asynchronous,result%20when%20you%20await%20me%22.)
 8. [Storing Django Static and Media Files on Amazon S3](https://testdriven.io/blog/storing-django-static-and-media-files-on-amazon-s3/)
+9. [Dynamic Modeling](https://code.djangoproject.com/wiki/DynamicModels)
 
 ## Django + Airflow
 1. [Django management from Airflow](https://stackoverflow.com/questions/47470245/django-orm-in-airflow-is-it-possible)
