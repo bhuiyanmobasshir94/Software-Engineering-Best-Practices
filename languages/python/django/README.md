@@ -32,3 +32,8 @@
 
 ## Issues
 1. [Django data migration issues](https://stackoverflow.com/questions/29253399/how-to-reset-migrations-in-django-1-7)
+
+## Scalability
+1. [Tips for Building High-Quality Django Apps at Scale](https://medium.com/@DoorDash/tips-for-building-high-quality-django-apps-at-scale-a5a25917b2b5)
+2. [How Scalable are Websites Built in Django Framework?](https://coderbook.com/@marcus/how-scalable-are-websites-built-in-django-framework/)
+3. [Scaling Django for millions of users](https://technobeans.com/2020/12/01/scaling-django-for-millions-of-users/)
