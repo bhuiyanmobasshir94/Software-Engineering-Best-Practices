@@ -29,3 +29,6 @@
 
 ## Web Framework
 1. [Building Your Own Python Web Framework](https://testdriven.io/courses/python-web-framework/)
+
+## Issues
+1. [Django data migration issues](https://stackoverflow.com/questions/29253399/how-to-reset-migrations-in-django-1-7)
