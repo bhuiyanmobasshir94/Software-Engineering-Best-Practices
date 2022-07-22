@@ -40,3 +40,7 @@
 
 ## Workflow
 1. [Workflow Management](https://www.youtube.com/watch?v=iORPu0_7UzY)
+
+## Celery 
+1. [How to Use Celery for Scheduling Tasks](https://www.caktusgroup.com/blog/2021/08/11/using-celery-scheduling-tasks/)
+2. [Periodic Tasks](https://docs.celeryq.dev/en/latest/userguide/periodic-tasks.html)
