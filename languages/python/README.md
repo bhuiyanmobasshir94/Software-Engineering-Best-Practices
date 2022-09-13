@@ -22,3 +22,6 @@
 ## Important
 1. [The Complete Python Development Guide](https://testdriven.io/guides/complete-python/)
 2. [Multiprocessing](https://colab.research.google.com/github/graysonliu/blog/blob/master/_notebooks/2021-05-05-notes-about-multiprocessing-in-python.ipynb#scrollTo=XuVhg-TeVG7B)
+
+## Dependency
+1. [Poetry](https://python-poetry.org/docs/cli/)
