@@ -25,3 +25,6 @@
 
 ## Dependency
 1. [Poetry](https://python-poetry.org/docs/cli/)
+
+## Software Design
+1. [Code Patterns](https://developer.ibm.com/languages/python/patterns/)
