@@ -11,3 +11,6 @@
 
 ### Books 
 - [Software Mistakes and Tradeoffs](https://livebook.manning.com/book/software-mistakes-and-tradeoffs/chapter-1/v-2/)
+
+### Guideline
+- [How to Learn Software Design and Architecture - a Roadmap](https://www.freecodecamp.org/news/software-design/)
