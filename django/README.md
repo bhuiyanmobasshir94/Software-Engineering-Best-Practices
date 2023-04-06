@@ -3,3 +3,6 @@
 3. [How To Add Unit Testing to Your Django Project](https://www.digitalocean.com/community/tutorials/how-to-add-unit-testing-to-your-django-project)
 4. [Load Testing a Django Application using LocustIO](https://dev.to/apcelent/load-testing-a-django-application-using-locustio-1hd0)
 5. [Automating Performance Testing in Django](https://testdriven.io/blog/django-performance-testing/)
+6. [Scaling Django](https://www.digitalocean.com/community/tutorial_series/scaling-django)
+7. [How to Load Test Django Applications with Locust](https://www.section.io/engineering-education/how-to-test-django-applications-with-locust/)
+
