@@ -67,3 +67,25 @@ burger = BurgerBuilder().addBuns("Sesame").addPatty("Fiash-patty").addCheese("Sw
 
 ### Singletone Pattern
 
+class ApplicationState:
+    instance = None
+
+    def __init__(self) -> None:
+        self.isLoggedIn = False
+
+    @staticmethod
+    def getAppState():
+        if not ApplicationState.instance:
+            ApplicationState.instance = ApplicationState()
+        return ApplicationState.instance
+
+appState1 = ApplicationState.getAppState()
+print(appState1.isLoggedIn)
+
+appState2 = ApplicationState.getAppState()
+appState1.isLoggedIn = True
+
+print(appState1.isLoggedIn)
+print(appState2.isLoggedIn)
+
+
