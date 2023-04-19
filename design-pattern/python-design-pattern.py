@@ -88,4 +88,78 @@ appState1.isLoggedIn = True
 print(appState1.isLoggedIn)
 print(appState2.isLoggedIn)
 
+## Behavioral Pattern
+
+### Observer i.e PubSub
+
+class youtubeChannel:
+    def __init__(self, name) -> None:
+        self.name = name
+        self.subscribers = []
+    
+    def subscribe(self, sub):
+        self.subscribers.append(sub)
+
+    def notify(self, event):
+        for sub in self.subscribers:
+            sub.sendNotification(self.name, event)
+        
+from abc import ABC, abstractmethod
+
+class YoutubeSubscriber(ABC):
+    @abstractmethod
+    def sendNotification(self, channel, event):
+        pass
+
+class YoutubeUser(YoutubeSubscriber):
+    def __init__(self, name) -> None:
+        self.name = name
+
+    def sendNotification(self, channel, event):
+        print("Print info")
+
+channel = youtubeChannel("Neetcode")
+channel.subscribe(YoutubeUser("sub1"))
+channel.subscribe(YoutubeUser("sub2"))
+channel.subscribe(YoutubeUser("sub3"))
+channel.notify("A new video realeased.")
+
+### Iterator
+
+class ListNode:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+class LinkedList:
+    def __init__(self, head):
+        self.head = head
+        self.cur = None
+
+    # Define Iterator
+    def __iter___(self):
+        self.cur = self.head
+        return self
+
+    # Iterate
+    def __next__(self):
+        if self.cur:
+            val = self.cur.val
+            self.cur = self.cur.next
+            return val
+        else:
+            raise StopIteration
+
+# initialize LinkedList
+
+head = ListNode(1)
+head.next = ListNode(2)
+head.next.next = ListNode(3)
+myList = LinkedList(head)
+
+# iterate over the linked list
+
+for n in myList:
+    print(n)
+
 
