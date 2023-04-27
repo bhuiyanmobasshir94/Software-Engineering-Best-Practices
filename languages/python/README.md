@@ -1,7 +1,7 @@
 ## Learning
 1. [Learn Python 3 The Hard Way](https://learnpythonthehardway.org/python3/)
 2. [How To Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/)
-3. [Automate the Boring Stuff With Python](Automate the Boring Stuff With Python)
+3. [Primers • Python](https://aman.ai/primers/python/)
 
 
 
