@@ -32,3 +32,6 @@ Note:
 
 ## Software Design
 1. [Code Patterns](https://developer.ibm.com/languages/python/patterns/)
+
+## knowledges
+1. [Dynamically calling functions in Python... Safely](https://www.danielmorell.com/blog/dynamically-calling-functions-in-python-safely)
