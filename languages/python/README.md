@@ -35,3 +35,4 @@ Note:
 
 ## knowledges
 1. [Dynamically calling functions in Python... Safely](https://www.danielmorell.com/blog/dynamically-calling-functions-in-python-safely)
+2. [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
