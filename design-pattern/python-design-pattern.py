@@ -162,4 +162,6 @@ myList = LinkedList(head)
 for n in myList:
     print(n)
 
+### Strategy Pattern
+
 
