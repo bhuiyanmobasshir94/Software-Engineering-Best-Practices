@@ -7,4 +7,5 @@
 7. [How to Load Test Django Applications with Locust](https://www.section.io/engineering-education/how-to-test-django-applications-with-locust/)
 8. [Difference between Load Testing and Stress Testing](https://www.geeksforgeeks.org/difference-between-load-testing-and-stress-testing/)
 9. [Test-Driven Development with Django, Django REST Framework, and Docker](https://testdriven.io/courses/tdd-django/)
+10. [Behavior-Driven Development with Django and Aloe](https://testdriven.io/blog/behavior-driven-development-with-django-and-aloe/)
 
