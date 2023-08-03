@@ -1,0 +1,3 @@
+1. [Django Stripe Tutorial](https://testdriven.io/blog/django-stripe-tutorial/)
+2. [Add Stripe Payments to Your Django and React App](https://betterprogramming.pub/how-to-integrate-django-react-app-with-stripe-payments-95709b3f23e5)
+3. [Stripe API Reference](https://stripe.com/docs/api)
