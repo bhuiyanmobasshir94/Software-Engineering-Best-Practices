@@ -3,3 +3,4 @@
 3. [Stripe API Reference](https://stripe.com/docs/api)
 4. [Stripe Python Repository](https://github.com/stripe/stripe-python)
 5. [Stripe Docs Testing](https://stripe.com/docs/testing)
+6. [Prebuilt subscription page with Stripe Checkout](https://stripe.com/docs/billing/quickstart)
