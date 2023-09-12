@@ -15,3 +15,6 @@
 ### Guideline
 - [How to Learn Software Design and Architecture - a Roadmap](https://www.freecodecamp.org/news/software-design/)
 - [The SOLID Principles of Object-Oriented Programming Explained in Plain English](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
+
+### Newsletter
+- [Developing](https://www.developing.dev/)
