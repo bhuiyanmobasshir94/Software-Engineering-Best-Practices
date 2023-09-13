@@ -9,4 +9,5 @@
 9. [Test-Driven Development with Django, Django REST Framework, and Docker](https://testdriven.io/courses/tdd-django/)
 10. [Behavior-Driven Development with Django and Aloe](https://testdriven.io/blog/behavior-driven-development-with-django-and-aloe/)
 11. [Improving Code Confidently with Test-Driven Development](https://testdriven.io/blog/tdd-benefits/)
+12. [Django REST Framework Views - Generic Views](https://testdriven.io/blog/drf-views-part-2/)
 
