@@ -29,6 +29,7 @@ Note:
 
 ## Dependency
 1. [Poetry](https://python-poetry.org/docs/cli/)
+2. [How to Build and Publish Python Packages With Poetry](https://www.freecodecamp.org/news/how-to-build-and-publish-python-packages-with-poetry/)
 
 ## Software Design
 1. [Code Patterns](https://developer.ibm.com/languages/python/patterns/)
