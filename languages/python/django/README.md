@@ -1,3 +1,6 @@
+## Django Exceptions
+1. [Django Exceptions](https://www.javatpoint.com/django-exceptions)
+
 ## Django + Celery
 1. [Asynchronous Tasks with Django and Celery](https://testdriven.io/blog/django-and-celery/)
 2. [Handling Periodic Tasks in Django with Celery and Docker](https://testdriven.io/blog/django-celery-periodic-tasks/)
