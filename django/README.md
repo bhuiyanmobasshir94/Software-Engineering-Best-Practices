@@ -11,4 +11,5 @@
 11. [Improving Code Confidently with Test-Driven Development](https://testdriven.io/blog/tdd-benefits/)
 12. [Django REST Framework Views - Generic Views](https://testdriven.io/blog/drf-views-part-2/)
 13. [DRF Documentation - Best](https://www.cdrf.co/)
+14. [Customizing the Django Admin](https://testdriven.io/blog/customize-django-admin/)
 
