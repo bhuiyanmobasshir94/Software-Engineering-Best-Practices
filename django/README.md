@@ -12,4 +12,5 @@
 12. [Django REST Framework Views - Generic Views](https://testdriven.io/blog/drf-views-part-2/)
 13. [DRF Documentation - Best](https://www.cdrf.co/)
 14. [Customizing the Django Admin](https://testdriven.io/blog/customize-django-admin/)
+15. [Django Session Docs](https://docs.djangoproject.com/en/5.0/topics/http/sessions/)
 
